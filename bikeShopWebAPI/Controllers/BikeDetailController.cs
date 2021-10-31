@@ -49,8 +49,7 @@ namespace bikeShopWebAPI.Controllers
             {
                 return BadRequest();
             }
-
-            /*_context.Entry(bikeDetail).State = EntityState.Modified;*/
+           
             _context.BikeDetails.Attach(bikeDetail);
             _context.Entry(bikeDetail).Property(b => b.BikeRented).IsModified = true;
             
