@@ -1,4 +1,4 @@
-## __CRUD Web Application__ <br><br>
+## __Bike rental web application__ <br><br>
 ### CRUD Web Application which implements bike rental. The user can rent bicycles from 
 ### the list of available ones or add his own to this list by filling out the appropriate form. 
 ### The application performs the functions of creating, reading, updating status and  removal
